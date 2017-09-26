@@ -1,0 +1,80 @@
+
+
+#gameContainer .row {
+    margin: 0px 0px 0px 15px;
+}
+.game-cell-row {
+	display: inline-block;
+	width: 80px;
+    height: 20px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: #EE0000;
+    margin: 0px 0px 0px 0px;
+}
+.non-game-cell-corner {
+	display: inline-block;
+	width: 20px;
+    height: 20px;
+    background-color: #888888;
+    border-style: solid;
+    border-color: #EE0000;
+    margin: 0px 0px 0px 0px;
+}
+.game-cell-column {
+	display: inline-block;
+	width: 20px;
+    height: 80px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: #EE0000;
+    margin: 0px 0px 0px 0px;	
+}
+.game-box {
+	display: inline-block;
+	width: 80px;
+    height: 80px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: #EE0000;
+    margin: 0px 0px 0px 0px;
+}
+.box-taken-player1 {
+	background-color: #0000FF;
+}
+.box-taken-player2 {
+	background-color: #FF3399;
+}
+.game-cell {
+    width: 100px;
+    height: 100px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: #EE0000;
+    margin: 0px 0px 0px 0px;
+}
+.game-cell-selectable {
+    cursor: pointer;
+}
+.game-cell-selectable:hover {
+    background-color: #00EEEE;
+}
+.game-cell-taken {
+
+}
+.game-cell-player {
+    background-color: #DDDDDD;
+}
+.game-cell-opponent {
+    background-color: #AAAAAA;
+}
+.game-cell-just-filled {
+	background-color: #EEEE00;
+}
+.player-label {
+    font-weight: bold;
+}
+#status {
+    font-weight: bold;
+    font-style: italic;
+}
